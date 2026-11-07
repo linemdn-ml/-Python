@@ -2,7 +2,7 @@
 
 # Как собрать APK для Android
 Убедитесь, что у вас установлены Java 17 JDK и Android SDK (Briefcase скачает их автоматически при первом запуске):
-   bash
+   bash -
    briefcase create android
    briefcase build android
    briefcase package android -p debug-apk
