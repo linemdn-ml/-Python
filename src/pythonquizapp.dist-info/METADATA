@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.4.6
+Name: pythonquizapp
+Formal-Name: Python Quiz App
+App-ID: com.example.pythonquizapp
+Version: 0.0.1
+Home-page: https://example.com/pythonquizapp
+Download-URL: https://example.com/pythonquizapp
+Author: Rikardo
+Author-email: rikardo@example.com
+Summary: A quiz app for learning Python

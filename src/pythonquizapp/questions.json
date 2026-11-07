@@ -1,0 +1,2772 @@
+[
+  {
+    "level": "beginner",
+    "question_text": "Какой результат выполнения кода: print(5 // 2)?",
+    "option_a": "2.5",
+    "option_b": "2",
+    "option_c": "3",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Оператор // выполняет целочисленное деление (с округлением вниз). 5 / 2 = 2.5, но // отбрасывает дробную часть, возвращая 2."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(len('Python'))?",
+    "option_a": "5",
+    "option_b": "6",
+    "option_c": "7",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Функция len() возвращает количество символов в строке. В слове 'Python' ровно 6 символов."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных вернет функция bool(0)?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "0",
+    "option_d": "None",
+    "correct_option": "B",
+    "explanation": "В Python число 0 считается 'ложным' значением, поэтому bool(0) возвращает False. Любое ненулевое число вернет True."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что произойдет при выполнении кода: 'a' + 'b'?",
+    "option_a": "Ошибка",
+    "option_b": "ab",
+    "option_c": "a b",
+    "option_d": "a+b",
+    "correct_option": "B",
+    "explanation": "Оператор + для строк выполняет конкатенацию (склеивание). Результатом будет строка 'ab'."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой результат выполнения кода: print(2 ** 3)?",
+    "option_a": "6",
+    "option_b": "8",
+    "option_c": "9",
+    "option_d": "5",
+    "correct_option": "B",
+    "explanation": "Оператор ** используется для возведения в степень. 2 в 3 степени — это 2 * 2 * 2 = 8."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какая функция используется для получения ввода от пользователя?",
+    "option_a": "print()",
+    "option_b": "input()",
+    "option_c": "scan()",
+    "option_d": "read()",
+    "correct_option": "B",
+    "explanation": "Функция input() приостанавливает выполнение программы и ждет, пока пользователь введет текст и нажмет Enter."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных у значения 3.14?",
+    "option_a": "int",
+    "option_b": "str",
+    "option_c": "float",
+    "option_d": "bool",
+    "correct_option": "C",
+    "explanation": "Числа с десятичной точкой (дробные) в Python относятся к типу float (числа с плавающей точкой)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(10 % 3)?",
+    "option_a": "1",
+    "option_b": "3",
+    "option_c": "0",
+    "option_d": "3.33",
+    "correct_option": "A",
+    "explanation": "Оператор % возвращает остаток от деления. 10 делится на 3 нацело 3 раза (9), остаток равен 1."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Как создать однострочный комментарий в Python?",
+    "option_a": "// текст",
+    "option_b": "# текст",
+    "option_c": "/* текст */",
+    "option_d": "-- текст",
+    "correct_option": "B",
+    "explanation": "Символ решетки # используется для написания комментариев. Все, что идет после него в строке, интерпретатор игнорирует."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Каким будет результат кода: print(type('42'))?",
+    "option_a": "<class 'int'>",
+    "option_b": "<class 'float'>",
+    "option_c": "<class 'str'>",
+    "option_d": "<class 'bool'>",
+    "correct_option": "C",
+    "explanation": "Значение 42 взято в кавычки, поэтому это строка (str), а не число."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой из перечисленных типов данных является изменяемым (mutable)?",
+    "option_a": "tuple",
+    "option_b": "str",
+    "option_c": "list",
+    "option_d": "int",
+    "correct_option": "C",
+    "explanation": "Списки (list) можно изменять после создания (добавлять, удалять элементы). Строки, кортежи и числа — неизменяемы."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print([1, 2, 3][1])?",
+    "option_a": "1",
+    "option_b": "2",
+    "option_c": "3",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Индексация в Python начинается с нуля. Элемент с индексом 1 — это второй элемент списка, то есть 2."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что произойдет при выполнении кода: d = {'a': 1}; print(d['b'])?",
+    "option_a": "Выведет None",
+    "option_b": "Выведет 0",
+    "option_c": "Выведет ошибку KeyError",
+    "option_d": "Добавит ключ 'b'",
+    "correct_option": "C",
+    "explanation": "Обращение к несуществующему ключу словаря вызывает исключение KeyError. Для безопасного доступа используется метод get()."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой результат выполнения кода: print(list(range(3)))?",
+    "option_a": "[1, 2, 3]",
+    "option_b": "[0, 1, 2]",
+    "option_c": "[0, 1, 2, 3]",
+    "option_d": "[3]",
+    "correct_option": "B",
+    "explanation": "Функция range(3) генерирует числа от 0 до 2 (не включая 3). list() преобразует их в список."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает метод append() у списка?",
+    "option_a": "Удаляет последний элемент",
+    "option_b": "Добавляет элемент в начало",
+    "option_c": "Добавляет элемент в конец",
+    "option_d": "Сортирует список",
+    "correct_option": "C",
+    "explanation": "Метод append(x) добавляет элемент x в самый конец существующего списка."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой оператор используется для проверки того, что элемент НЕ входит в список?",
+    "option_a": "not in",
+    "option_b": "!=",
+    "option_c": "is not",
+    "option_d": "except",
+    "correct_option": "A",
+    "explanation": "Оператор not in возвращает True, если элемента нет в последовательности (например, 'a' not in ['b', 'c'])."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет следующий код: print('Hello'[1:4])?",
+    "option_a": "Hell",
+    "option_b": "ello",
+    "option_c": "ell",
+    "option_d": "Hello",
+    "correct_option": "C",
+    "explanation": "Срез [1:4] берет символы с индекса 1 (включительно) по 4 (не включая его). Индексы: H(0), e(1), l(2), l(3), o(4)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как объединить два словаря d1 и d2 в Python 3.9+?",
+    "option_a": "d1 + d2",
+    "option_b": "d1 | d2",
+    "option_c": "d1 & d2",
+    "option_d": "d1.merge(d2)",
+    "correct_option": "B",
+    "explanation": "Начиная с Python 3.9, оператор | используется для слияния словарей. Создается новый словарь с ключами из обоих."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что вернет функция type([])?",
+    "option_a": "<class 'tuple'>",
+    "option_b": "<class 'dict'>",
+    "option_c": "<class 'list'>",
+    "option_d": "<class 'set'>",
+    "correct_option": "C",
+    "explanation": "Пустые квадратные скобки [] создают пустой список. Его тип — list."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает ключевое слово pass?",
+    "option_a": "Прерывает выполнение цикла",
+    "option_b": "Ничего не делает (заглушка)",
+    "option_c": "Передает управление другой функции",
+    "option_d": "Возвращает None",
+    "correct_option": "B",
+    "explanation": "pass используется как синтаксическая заглушка там, где код обязателен, но пока не написан (например, в пустой функции)."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое GIL (Global Interpreter Lock) в Python?",
+    "option_a": "Механизм блокировки базы данных",
+    "option_b": "Блокировка, позволяющая только одному потоку выполнять байт-код Python одновременно",
+    "option_c": "Глобальный интерфейс для работы с памятью",
+    "option_d": "Инструмент для сборки мусора",
+    "correct_option": "B",
+    "explanation": "GIL — это мьютекс, который защищает доступ к объектам Python, не позволяя нескольким потокам (threads) выполнять Python-код одновременно. Это ограничивает многопоточность в задачах, нагружающих CPU."
+  },
+  {
+    "level": "advanced",
+    "question_text": "В чем разница между == и is?",
+    "option_a": "Разницы нет",
+    "option_b": "== сравнивает значения, is сравнивает ссылки на объекты (идентичность)",
+    "option_c": "== сравнивает ссылки, is сравнивает значения",
+    "option_d": "is используется только для чисел",
+    "correct_option": "B",
+    "explanation": "Оператор == проверяет равенство значений (вызывая метод __eq__), а is проверяет, указывают ли обе переменные на один и тот же объект в памяти."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что выведет следующий код?\ndef func(a, lst=[]):\n    lst.append(a)\n    return lst\nprint(func(1))\nprint(func(2))",
+    "option_a": "[1]\n[2]",
+    "option_b": "[1]\n[1, 2]",
+    "option_c": "Ошибка",
+    "option_d": "[1]\n[2, 1]",
+    "correct_option": "B",
+    "explanation": "Классическая ловушка! Изменяемые объекты по умолчанию (например, списки) инициализируются один раз при определении функции. Поэтому второй вызов добавит 2 в тот же самый список."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое декоратор в Python?",
+    "option_a": "Специальный тип данных",
+    "option_b": "Функция, которая принимает другую функцию и расширяет её поведение",
+    "option_c": "Способ оформления кода",
+    "option_d": "Встроенный модуль для рисования",
+    "correct_option": "B",
+    "explanation": "Декоратор — это функция высшего порядка, которая позволяет обернуть другую функцию, чтобы добавить ей функционал (логирование, кэширование и т.д.) без изменения её кода."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что выведет код: print([x * 2 for x in range(3)])?",
+    "option_a": "[2, 4, 6]",
+    "option_b": "[0, 2, 4]",
+    "option_c": "[0, 1, 2]",
+    "option_d": "[2, 4]",
+    "correct_option": "B",
+    "explanation": "Это генератор списка (list comprehension). range(3) дает 0, 1, 2. Каждое число умножается на 2, получается [0, 2, 4]."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какая функция используется для получения списка всех атрибутов и методов объекта?",
+    "option_a": "vars()",
+    "option_b": "dir()",
+    "option_c": "attrs()",
+    "option_d": "methods()",
+    "correct_option": "B",
+    "explanation": "Встроенная функция dir() возвращает отсортированный список строк — имен атрибутов и методов переданного объекта."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает метод __init__ в классе?",
+    "option_a": "Удаляет объект",
+    "option_b": "Инициализирует объект при его создании (конструктор)",
+    "option_c": "Создает новый класс",
+    "option_d": "Возвращает копию объекта",
+    "correct_option": "B",
+    "explanation": "__init__ — это метод-конструктор. Он автоматически вызывается при создании нового экземпляра класса и используется для начальной настройки атрибутов."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что произойдет, если открыть файл с помощью open('file.txt', 'w')?",
+    "option_a": "Файл откроется для чтения",
+    "option_b": "Файл откроется для добавления в конец",
+    "option_c": "Файл будет создан или очищен (перезаписан)",
+    "option_d": "Будет вызвана ошибка",
+    "correct_option": "C",
+    "explanation": "Режим 'w' (write) открывает файл для записи. Если файл существует, его содержимое будет полностью стерто. Если нет — он будет создан."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что выведет код: print(isinstance(True, int))?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "Ошибка",
+    "option_d": "None",
+    "correct_option": "A",
+    "explanation": "В Python тип bool является подклассом типа int. True равно 1, а False равно 0, поэтому isinstance(True, int) возвращает True."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какой метод используется для безопасного получения значения из словаря, если ключ может отсутствовать?",
+    "option_a": "get()",
+    "option_b": "fetch()",
+    "option_c": "find()",
+    "option_d": "value()",
+    "correct_option": "A",
+    "explanation": "Метод dict.get(key, default) возвращает значение по ключу, а если ключа нет — возвращает None (или указанное значение по умолчанию), не вызывая ошибку."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое генератор (generator) в Python?",
+    "option_a": "Функция, которая возвращает список",
+    "option_b": "Функция, использующая yield для возврата значений по одному",
+    "option_c": "Класс для создания случайных чисел",
+    "option_d": "Модуль для работы с файлами",
+    "correct_option": "B",
+    "explanation": "Генераторы создаются с помощью функций с ключевым словом yield. Они не хранят все значения в памяти, а генерируют их по мере необходимости, что экономит память."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print('2' + '2')?",
+    "option_a": "4",
+    "option_b": "22",
+    "option_c": "Ошибка",
+    "option_d": "None",
+    "correct_option": "B",
+    "explanation": "Сложение строк (конкатенация) просто склеивает их. В данном случае результат будет '22'."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных возвращает функция input()?",
+    "option_a": "int",
+    "option_b": "float",
+    "option_c": "str",
+    "option_d": "bool",
+    "correct_option": "C",
+    "explanation": "Функция input() всегда возвращает строку (str), даже если пользователь ввел число."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Как обозначается логическое И в Python?",
+    "option_a": "and",
+    "option_b": "&&",
+    "option_c": "||",
+    "option_d": "or",
+    "correct_option": "A",
+    "explanation": "В Python используются словесные операторы: and (И), or (ИЛИ), not (НЕ)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(bool(''))?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "Ошибка",
+    "option_d": "None",
+    "correct_option": "B",
+    "explanation": "Пустая строка '' считается 'ложным' значением в Python, поэтому bool('') вернет False."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой метод переводит строку в верхний регистр?",
+    "option_a": "lower()",
+    "option_b": "upper()",
+    "option_c": "capitalize()",
+    "option_d": "title()",
+    "correct_option": "B",
+    "explanation": "Метод upper() возвращает копию строки, в которой все символы приведены к верхнему регистру."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает оператор break внутри цикла?",
+    "option_a": "Пропускает текущую итерацию",
+    "option_b": "Полностью прерывает цикл",
+    "option_c": "Перезапускает цикл",
+    "option_d": "Вызывает ошибку",
+    "correct_option": "B",
+    "explanation": "Оператор break немедленно завершает выполнение ближайшего цикла (for или while)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(10 / 2)?",
+    "option_a": "5",
+    "option_b": "5.0",
+    "option_c": "2",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Оператор / выполняет обычное деление и всегда возвращает число с плавающей точкой (float), даже если числа делятся нацело."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Как узнать длину списка a = [1, 2, 3]?",
+    "option_a": "a.length",
+    "option_b": "len(a)",
+    "option_c": "a.size()",
+    "option_d": "count(a)",
+    "correct_option": "B",
+    "explanation": "Встроенная функция len() возвращает количество элементов в объекте."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какое расширение обычно имеют файлы Python?",
+    "option_a": ".py",
+    "option_b": ".python",
+    "option_c": ".txt",
+    "option_d": ".pt",
+    "correct_option": "A",
+    "explanation": "Файлы с исходным кодом на Python имеют расширение .py."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает функция int('10')?",
+    "option_a": "Преобразует строку в число 10",
+    "option_b": "Возвращает ошибку",
+    "option_c": "Оставляет как строку '10'",
+    "option_d": "Возвращает 10.0",
+    "correct_option": "A",
+    "explanation": "Функция int() преобразует строку, содержащую число, в целочисленный тип данных (integer)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как получить последний элемент списка lst?",
+    "option_a": "lst[-1]",
+    "option_b": "lst[0]",
+    "option_c": "lst[last]",
+    "option_d": "lst.end()",
+    "correct_option": "A",
+    "explanation": "Отрицательные индексы используются для доступа к элементам с конца списка. Индекс -1 означает последний элемент."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой результат выполнения: print('Hello'[1:4])?",
+    "option_a": "Hell",
+    "option_b": "ello",
+    "option_c": "ell",
+    "option_d": "Hell",
+    "correct_option": "C",
+    "explanation": "Срез строки [1:4] берет символы с индекса 1 (включительно) по 4 (не включая). В слове 'Hello' индексы: H(0), e(1), l(2), l(3), o(4). Результат 'ell'."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как создать пустой словарь?",
+    "option_a": "d = []",
+    "option_b": "d = {}",
+    "option_c": "d = ()",
+    "option_d": "d = set()",
+    "correct_option": "B",
+    "explanation": "Фигурные скобки {} без элементов создают пустой словарь (dict)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(list(range(2, 5)))?",
+    "option_a": "[2, 3, 4, 5]",
+    "option_b": "[2, 3, 4]",
+    "option_c": "[3, 4, 5]",
+    "option_d": "[2, 5]",
+    "correct_option": "B",
+    "explanation": "Функция range(start, stop) генерирует числа от start до stop (не включая stop). Поэтому range(2, 5) это 2, 3, 4."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какое ключевое слово используется для создания функции?",
+    "option_a": "func",
+    "option_b": "def",
+    "option_c": "function",
+    "option_d": "lambda",
+    "correct_option": "B",
+    "explanation": "Ключевое слово def (от англ. define) используется для объявления пользовательских функций."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(3 * 'abc')?",
+    "option_a": "abcabcabc",
+    "option_b": "abc3",
+    "option_c": "Ошибка",
+    "option_d": "[abc, abc, abc]",
+    "correct_option": "A",
+    "explanation": "Умножение строки на число повторяет эту строку указанное количество раз."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как объединить два списка a = [1, 2] и b = [3, 4]?",
+    "option_a": "a + b",
+    "option_b": "a.append(b)",
+    "option_c": "a & b",
+    "option_d": "a.merge(b)",
+    "correct_option": "A",
+    "explanation": "Оператор + для списков выполняет их конкатенацию, создавая новый список [1, 2, 3, 4]. Метод append добавит второй список как один элемент."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает оператор in?",
+    "option_a": "Проверяет наличие элемента в последовательности",
+    "option_b": "Создает цикл",
+    "option_c": "Импортирует модуль",
+    "option_d": "Проверяет тип данных",
+    "correct_option": "A",
+    "explanation": "Оператор in возвращает True, если элемент присутствует в строке, списке, кортеже или словаре (по ключам), иначе False."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что произойдет при выполнении кода: a = (1, 2, 3); a[0] = 5?",
+    "option_a": "Первый элемент станет 5",
+    "option_b": "Возникнет ошибка TypeError",
+    "option_c": "Создастся новый кортеж",
+    "option_d": "Ничего не произойдет",
+    "correct_option": "B",
+    "explanation": "Кортежи (tuple) являются неизменяемыми (immutable). Вы не можете изменить их элементы после создания, попытка вызовет ошибку."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое list comprehension в Python?",
+    "option_a": "Метод сортировки списка",
+    "option_b": "Синтаксический сахар для создания списков на основе других последовательностей",
+    "option_c": "Функция для сравнения списков",
+    "option_d": "Способ удаления элементов из списка",
+    "correct_option": "B",
+    "explanation": "List comprehension (генератор списков) позволяет создавать списки в одну строку, например: [x*2 for x in range(5)]."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какой оператор используется для проверки идентичности объектов (одна и та же область памяти)?",
+    "option_a": "==",
+    "option_b": "is",
+    "option_c": "===",
+    "option_d": "equals",
+    "correct_option": "B",
+    "explanation": "Оператор is проверяет, ссылаются ли две переменные на один и тот же объект в памяти. Оператор == проверяет равенство значений."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что выведет код: print(list(filter(lambda x: x % 2 == 0, [1, 2, 3, 4]))) ?",
+    "option_a": "[1, 3]",
+    "option_b": "[2, 4]",
+    "option_c": "[1, 2, 3, 4]",
+    "option_d": "True",
+    "correct_option": "B",
+    "explanation": "Функция filter() оставляет только те элементы, для которых лямбда-функция возвращает True. Здесь остаются четные числа: 2 и 4."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что произойдет при выполнении: a, b = 1, 2, 3?",
+    "option_a": "a=1, b=2, 3 игнорируется",
+    "option_b": "Возникнет ошибка ValueError",
+    "option_c": "a=1, b=3",
+    "option_d": "a=1, b=(2, 3)",
+    "correct_option": "B",
+    "explanation": "При распаковке количество переменных слева должно совпадать с количеством значений справа. Здесь 2 переменные и 3 значения — будет ошибка."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(3 * 2)?",
+    "option_a": "6",
+    "option_b": "32",
+    "option_c": "5",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Оператор * умножает числа. 3 умножить на 2 равно 6."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какая функция возвращает тип объекта?",
+    "option_a": "print()",
+    "option_b": "type()",
+    "option_c": "id()",
+    "option_d": "str()",
+    "correct_option": "B",
+    "explanation": "Функция type() возвращает тип переданного в нее объекта (например, <class 'int'>)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Как правильно создать многострочную строку?",
+    "option_a": "С помощью трех кавычек ''' или \"\"\"",
+    "option_b": "С помощью обратного слэша в конце",
+    "option_c": "С помощью функции str()",
+    "option_d": "С помощью символа перевода строки \\n",
+    "correct_option": "A",
+    "explanation": "Для создания многострочных строк используются тройные одинарные или двойные кавычки."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(5 > 3)?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "5",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Оператор > сравнивает числа. Так как 5 больше 3, выражение возвращает логическое True."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных у значения False?",
+    "option_a": "str",
+    "option_b": "int",
+    "option_c": "bool",
+    "option_d": "float",
+    "correct_option": "C",
+    "explanation": "False и True — это логические значения, их тип данных называется bool."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает метод lower() у строки?",
+    "option_a": "Переводит строку в нижний регистр",
+    "option_b": "Переводит строку в верхний регистр",
+    "option_c": "Удаляет пробелы",
+    "option_d": "Разделяет строку на список",
+    "correct_option": "A",
+    "explanation": "Метод lower() возвращает копию строки, в которой все символы переведены в нижний регистр."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(len('Hello'))?",
+    "option_a": "4",
+    "option_b": "5",
+    "option_c": "6",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "В слове 'Hello' 5 символов (H, e, l, l, o). Функция len() возвращает их количество."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой оператор используется для остатка от деления?",
+    "option_a": "/",
+    "option_b": "//",
+    "option_c": "%",
+    "option_d": "**",
+    "correct_option": "C",
+    "explanation": "Оператор % возвращает остаток от деления одного числа на другое."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Как добавить комментарий в код?",
+    "option_a": "// Комментарий",
+    "option_b": "/* Комментарий */",
+    "option_c": "# Комментарий",
+    "option_d": "-- Комментарий",
+    "correct_option": "C",
+    "explanation": "В Python однострочные комментарии начинаются с символа решетки #."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(10 == 10.0)?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "Ошибка",
+    "option_d": "10",
+    "correct_option": "A",
+    "explanation": "Python сравнивает значения, а не типы. 10 и 10.0 равны, поэтому результат True."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает оператор **?",
+    "option_a": "Умножение",
+    "option_b": "Возведение в степень",
+    "option_c": "Деление",
+    "option_d": "Сложение",
+    "correct_option": "B",
+    "explanation": "Оператор ** используется для возведения числа в степень (например, 2 ** 3 = 8)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(bool(1))?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "1",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Любое ненулевое число в Python считается истинным (True)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных используется для хранения набора уникальных элементов?",
+    "option_a": "list",
+    "option_b": "tuple",
+    "option_c": "set",
+    "option_d": "dict",
+    "correct_option": "C",
+    "explanation": "Тип set (множество) хранит только уникальные элементы, дубликаты автоматически удаляются."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print('a' in 'apple')?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "a",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Оператор in проверяет, содержится ли подстрока в строке. Буква 'a' есть в слове 'apple'."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает функция str(123)?",
+    "option_a": "Преобразует число в строку",
+    "option_b": "Возвращает ошибку",
+    "option_c": "Оставляет как число",
+    "option_d": "Удаляет число",
+    "correct_option": "A",
+    "explanation": "Функция str() преобразует переданный объект (например, число) в строковый тип данных."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой оператор используется для проверки неравенства?",
+    "option_a": "==",
+    "option_b": "!=",
+    "option_c": "<>",
+    "option_d": "not=",
+    "correct_option": "B",
+    "explanation": "Оператор != возвращает True, если значения не равны друг другу."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print([1, 2] + [3, 4])?",
+    "option_a": "[1, 2, 3, 4]",
+    "option_b": "[4, 6]",
+    "option_c": "[[1, 2], [3, 4]]",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Оператор + для списков выполняет конкатенацию, объединяя элементы двух списков в один."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как удалить элемент по ключу из словаря d?",
+    "option_a": "del d['key']",
+    "option_b": "d.remove('key')",
+    "option_c": "d.pop('key')",
+    "option_d": "Оба варианта A и C верны",
+    "correct_option": "D",
+    "explanation": "Ключ можно удалить с помощью инструкции del d['key'] или метода d.pop('key')."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(2 ** 3 ** 2)?",
+    "option_a": "64",
+    "option_b": "512",
+    "option_c": "12",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Оператор ** имеет правоассоциативную связь. Сначала выполняется 3 ** 2 = 9, затем 2 ** 9 = 512."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как получить срез списка lst от 2-го до 4-го элемента включительно?",
+    "option_a": "lst[2:4]",
+    "option_b": "lst[2:5]",
+    "option_c": "lst[1:4]",
+    "option_d": "lst[1:3]",
+    "correct_option": "B",
+    "explanation": "Индексация начинается с 0, а верхняя граница среза не включается. Чтобы взять элементы с индексами 2, 3 и 4, нужен срез [2:5]."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что произойдет при выполнении: print('5' + 5)?",
+    "option_a": "Выведет 10",
+    "option_b": "Выведет 55",
+    "option_c": "Возникнет ошибка TypeError",
+    "option_d": "Выведет None",
+    "correct_option": "C",
+    "explanation": "Python не позволяет складывать строку (str) и число (int) напрямую, это вызывает ошибку TypeError."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает метод strip() у строки?",
+    "option_a": "Удаляет все пробелы внутри строки",
+    "option_b": "Удаляет пробелы в начале и в конце строки",
+    "option_c": "Переводит строку в нижний регистр",
+    "option_d": "Разделяет строку на части",
+    "correct_option": "B",
+    "explanation": "Метод strip() удаляет пробельные символы (или указанные символы) только с начала и конца строки."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как работает цикл for i in range(10, 0, -2)?",
+    "option_a": "Идет от 10 до 0 с шагом -2",
+    "option_b": "Идет от 10 до 0 с шагом 2",
+    "option_c": "Идет от 0 до 10 с шагом 2",
+    "option_d": "Вызывает ошибку",
+    "correct_option": "A",
+    "explanation": "range(start, stop, step) генерирует последовательность от 10 до 1 (не включая 0) с шагом -2: 10, 8, 6, 4, 2."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что такое f-строка в Python?",
+    "option_a": "Строка, которая не меняется",
+    "option_b": "Форматированная строка, позволяющая вставлять переменные прямо в текст",
+    "option_c": "Строка, содержащая только числа",
+    "option_d": "Способ чтения файла",
+    "correct_option": "B",
+    "explanation": "F-строки (f'текст {переменная}') позволяют удобно подставлять значения переменных и выражений в строку."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой тип данных вернет функция tuple([1, 2, 3])?",
+    "option_a": "list",
+    "option_b": "tuple",
+    "option_c": "set",
+    "option_d": "dict",
+    "correct_option": "B",
+    "explanation": "Функция tuple() преобразует переданную последовательность (например, список) в кортеж."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print({'a': 1}.get('b', 2))?",
+    "option_a": "None",
+    "option_b": "1",
+    "option_c": "2",
+    "option_d": "Ошибка KeyError",
+    "correct_option": "C",
+    "explanation": "Метод get() возвращает значение по ключу, а если ключа нет, возвращает значение по умолчанию (в данном случае 2)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как перевернуть список lst = [1, 2, 3]?",
+    "option_a": "lst.reverse()",
+    "option_b": "lst[::-1]",
+    "option_c": "reversed(lst)",
+    "option_d": "Всё вышеперечисленное",
+    "correct_option": "D",
+    "explanation": "Все эти способы позволяют получить перевернутый список. lst.reverse() меняет его на месте, срез [::-1] создает копию, а reversed() возвращает итератор."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какое значение вернет функция bool([])?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "None",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Пустые коллекции (списки, словари, кортежи) считаются ложными значениями, поэтому bool([]) вернет False."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает оператор continue в цикле?",
+    "option_a": "Полностью прерывает цикл",
+    "option_b": "Переходит к следующей итерации цикла",
+    "option_c": "Вызывает ошибку",
+    "option_d": "Ничего не делает",
+    "correct_option": "B",
+    "explanation": "Оператор continue пропускает оставшуюся часть текущей итерации и сразу переходит к следующей."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как проверить, является ли переменная x строкой?",
+    "option_a": "type(x) == 'str'",
+    "option_b": "isinstance(x, str)",
+    "option_c": "x.type() == str",
+    "option_d": "isstr(x)",
+    "correct_option": "B",
+    "explanation": "Функция isinstance(x, str) является правильным способом проверки типа объекта в Python."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print('Python'.find('th'))?",
+    "option_a": "1",
+    "option_b": "2",
+    "option_c": "-1",
+    "option_d": "True",
+    "correct_option": "B",
+    "explanation": "Метод find() возвращает индекс первого вхождения подстроки. В слове 'Python' буква 't' имеет индекс 2."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как получить список всех ключей словаря d?",
+    "option_a": "d.keys()",
+    "option_b": "d.get_keys()",
+    "option_c": "list(d)",
+    "option_d": "Оба варианта A и C вернут ключи",
+    "correct_option": "D",
+    "explanation": "Метод d.keys() возвращает представление ключей, а list(d) создает список из ключей словаря."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(5 if 3 > 2 else 10)?",
+    "option_a": "5",
+    "option_b": "10",
+    "option_c": "True",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Это тернарный оператор. Так как условие (3 > 2) истинно, возвращается значение до else (5)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой метод удаляет элемент из списка по его значению?",
+    "option_a": "del",
+    "option_b": "pop()",
+    "option_c": "remove()",
+    "option_d": "delete()",
+    "correct_option": "C",
+    "explanation": "Метод remove(value) удаляет первое вхождение элемента с указанным значением."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что произойдет, если изменить элемент кортежа?",
+    "option_a": "Он изменится",
+    "option_b": "Возникнет ошибка TypeError",
+    "option_c": "Создастся копия",
+    "option_d": "Ничего не произойдет",
+    "correct_option": "B",
+    "explanation": "Кортежи (tuple) неизменяемы (immutable), поэтому изменить их элементы после создания нельзя."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое *args в определении функции?",
+    "option_a": "Обязательный аргумент",
+    "option_b": "Позволяет передать произвольное количество позиционных аргументов",
+    "option_c": "Позволяет передать произвольное количество именованных аргументов",
+    "option_d": "Указатель на переменную",
+    "correct_option": "B",
+    "explanation": "*args собирает все переданные позиционные аргументы в кортеж, позволяя функции принимать переменное число аргументов."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает функция map() в Python?",
+    "option_a": "Применяет функцию к каждому элементу итерируемого объекта",
+    "option_b": "Фильтрует элементы по условию",
+    "option_c": "Создает словарь",
+    "option_d": "Сортирует список",
+    "correct_option": "A",
+    "explanation": "map(func, iterable) применяет переданную функцию ко всем элементам последовательности и возвращает итератор с результатами."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое замыкание (closure) в Python?",
+    "option_a": "Функция, которая возвращает другую функцию",
+    "option_b": "Внутренняя функция, которая запоминает значения из внешней области видимости",
+    "option_c": "Блокировка файла",
+    "option_d": "Способ закрытия программы",
+    "correct_option": "B",
+    "explanation": "Замыкание — это внутренняя функция, которая захватывает и запоминает переменные из локальной области видимости внешней функции."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какой результат выполнения: print([i for i in range(5) if i % 2 == 0])?",
+    "option_a": "[1, 3, 5]",
+    "option_b": "[0, 2, 4]",
+    "option_c": "[0, 1, 2, 3, 4]",
+    "option_d": "[2, 4]",
+    "correct_option": "B",
+    "explanation": "List comprehension оставляет только те числа от 0 до 4, которые делятся на 2 без остатка (четные): 0, 2, 4."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что означает декоратор @staticmethod?",
+    "option_a": "Метод, который принимает self",
+    "option_b": "Метод, который не принимает ни self, ни cls и не зависит от экземпляра",
+    "option_c": "Метод, который принимает cls",
+    "option_d": "Абстрактный метод",
+    "correct_option": "B",
+    "explanation": "@staticmethod делает метод статическим — он не получает ссылку на экземпляр (self) или класс (cls) и работает как обычная функция внутри класса."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что произойдет при выполнении: a = [1, 2, 3]; b = a; b.append(4)?",
+    "option_a": "a = [1, 2, 3], b = [1, 2, 3, 4]",
+    "option_b": "a = [1, 2, 3, 4], b = [1, 2, 3, 4]",
+    "option_c": "a = [1, 2, 3], b = [1, 2, 3]",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Переменные a и b ссылаются на один и тот же список в памяти. Изменяя b, мы изменяем список, на который смотрит и a."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает оператор with при работе с файлами?",
+    "option_a": "Автоматически закрывает файл после выхода из блока",
+    "option_b": "Открывает файл только для чтения",
+    "option_c": "Шифрует файл",
+    "option_d": "Создает копию файла",
+    "correct_option": "A",
+    "explanation": "Контекстный менеджер (with) гарантирует, что файл будет корректно закрыт, даже если внутри блока произойдет ошибка."
+  },
+  {
+    "level": "advanced",
+    "question_text": "В чем разница между методами __str__ и __repr__?",
+    "option_a": "Разницы нет",
+    "option_b": "__str__ для пользователей, __repr__ для разработчиков (однозначное представление)",
+    "option_c": "__repr__ для пользователей, __str__ для разработчиков",
+    "option_d": "__str__ возвращает число, __repr__ строку",
+    "correct_option": "B",
+    "explanation": "__str__ вызывается функциями print() и str() и должен быть читаемым. __repr__ используется в отладчике и должен быть однозначным (по возможности позволяющим воссоздать объект)."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое генераторы списков (list comprehensions)?",
+    "option_a": "Функции для генерации случайных чисел",
+    "option_b": "Синтаксис для компактного создания списков на основе других последовательностей",
+    "option_c": "Способ сортировки списка",
+    "option_d": "Модуль для работы со списками",
+    "correct_option": "B",
+    "explanation": "List comprehensions позволяют создавать списки в одну строку, например: [x*2 for x in range(5)]."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какой оператор используется для распаковки (unpacking) словаря в аргументы функции?",
+    "option_a": "*",
+    "option_b": "**",
+    "option_c": "&",
+    "option_d": "@",
+    "correct_option": "B",
+    "explanation": "Оператор ** используется для передачи словаря в качестве именованных аргументов: func(**my_dict)."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что произойдет при вызове функции с аргументом по умолчанию, если он является изменяемым объектом (например, list)?",
+    "option_a": "Создастся новый список при каждом вызове",
+    "option_b": "Список будет создан один раз и будет сохранять изменения между вызовами",
+    "option_c": "Возникнет ошибка",
+    "option_d": "Аргумент будет проигнорирован",
+    "correct_option": "B",
+    "explanation": "Это известная ловушка Python. Изменяемые аргументы по умолчанию инициализируются один раз при определении функции, поэтому изменения сохраняются."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает метод super() в классе?",
+    "option_a": "Вызывает родительский класс",
+    "option_b": "Создает новый экземпляр класса",
+    "option_c": "Удаляет объект",
+    "option_d": "Возвращает атрибуты класса",
+    "correct_option": "A",
+    "explanation": "Функция super() используется для вызова методов родительского класса, что особенно важно при множественном наследовании."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какой модуль используется для работы с регулярными выражениями в Python?",
+    "option_a": "regex",
+    "option_b": "re",
+    "option_c": "regexp",
+    "option_d": "match",
+    "correct_option": "B",
+    "explanation": "Встроенный модуль re предоставляет функции для работы с регулярными выражениями."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое GIL в Python?",
+    "option_a": "Глобальная блокировка интерпретатора, ограничивающая многопоточность",
+    "option_b": "Глобальный индекс библиотек",
+    "option_c": "Генератор итераторов",
+    "option_d": "Модуль для работы с сетью",
+    "correct_option": "A",
+    "explanation": "GIL (Global Interpreter Lock) — это механизм, который позволяет только одному потоку выполнять байт-код Python в любой момент времени."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает ключевое слово yield в функции?",
+    "option_a": "Возвращает значение и завершает функцию",
+    "option_b": "Превращает функцию в генератор, возвращая значения по одному",
+    "option_c": "Создает цикл",
+    "option_d": "Вызывает ошибку",
+    "correct_option": "B",
+    "explanation": "yield используется в генераторах. Он возвращает значение и приостанавливает выполнение функции, сохраняя её состояние для следующего вызова."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое декоратор @property?",
+    "option_a": "Позволяет вызывать метод без скобок, как атрибут",
+    "option_b": "Создает статический метод",
+    "option_c": "Делает атрибут приватным",
+    "option_d": "Удаляет атрибут",
+    "correct_option": "A",
+    "explanation": "@property превращает метод класса в атрибут только для чтения, позволяя обращаться к нему без вызова (obj.attr вместо obj.attr())."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое множественное наследование в Python?",
+    "option_a": "Класс может наследоваться только от одного класса",
+    "option_b": "Класс может наследоваться от нескольких классов одновременно",
+    "option_c": "Создание нескольких экземпляров класса",
+    "option_d": "Наследование только от абстрактных классов",
+    "correct_option": "B",
+    "explanation": "Python поддерживает множественное наследование, когда класс может наследовать методы и атрибуты от нескольких родительских классов (class C(A, B))."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой результат выполнения кода: print('5' * 2)?",
+    "option_a": "10",
+    "option_b": "55",
+    "option_c": "Ошибка",
+    "option_d": "5",
+    "correct_option": "B",
+    "explanation": "Умножение строки на число повторяет её. Строка '5' повторится 2 раза, получится '55'."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(10 > 5 and 3 > 4)?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "10",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Оператор and требует, чтобы оба условия были истинными. 10 > 5 — это True, но 3 > 4 — это False. True and False дает False."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных у значения 'Hello'?",
+    "option_a": "int",
+    "option_b": "float",
+    "option_c": "str",
+    "option_d": "bool",
+    "correct_option": "C",
+    "explanation": "Текст в кавычках (одинарных или двойных) всегда является строкой (str)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает функция len()?",
+    "option_a": "Возвращает длину строки или списка",
+    "option_b": "Выводит текст на экран",
+    "option_c": "Преобразует в число",
+    "option_d": "Удаляет элемент",
+    "correct_option": "A",
+    "explanation": "Функция len() возвращает количество элементов в объекте (символов в строке, элементов в списке и т.д.)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой оператор используется для деления с остатком (целочисленного деления)?",
+    "option_a": "/",
+    "option_b": "%",
+    "option_c": "//",
+    "option_d": "**",
+    "correct_option": "C",
+    "explanation": "Оператор // выполняет деление и округляет результат вниз до целого числа."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(3 == 3.0)?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "Ошибка",
+    "option_d": "3",
+    "correct_option": "A",
+    "explanation": "В Python целое число 3 и число с плавающей точкой 3.0 считаются равными по значению."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Как создать пустой список?",
+    "option_a": "list = ()",
+    "option_b": "list = {}",
+    "option_c": "list = []",
+    "option_d": "list = ''",
+    "correct_option": "C",
+    "explanation": "Пустые квадратные скобки [] создают пустой список. {} создают словарь, () — кортеж."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает метод upper() у строки?",
+    "option_a": "Переводит строку в верхний регистр",
+    "option_b": "Переводит строку в нижний регистр",
+    "option_c": "Удаляет пробелы",
+    "option_d": "Заменяет символы",
+    "correct_option": "A",
+    "explanation": "Метод upper() возвращает копию строки, где все буквы сделаны заглавными."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой результат выполнения кода: print(2 ** 4)?",
+    "option_a": "6",
+    "option_b": "8",
+    "option_c": "16",
+    "option_d": "24",
+    "correct_option": "C",
+    "explanation": "Оператор ** означает возведение в степень. 2 в 4-й степени равно 16."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(bool('False'))?",
+    "option_a": "False",
+    "option_b": "True",
+    "option_c": "Ошибка",
+    "option_d": "None",
+    "correct_option": "B",
+    "explanation": "Строка 'False' не пустая, поэтому она считается истинной (True). Ложной является только пустая строка ''."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой метод добавляет элемент в конец списка?",
+    "option_a": "add()",
+    "option_b": "insert()",
+    "option_c": "append()",
+    "option_d": "push()",
+    "correct_option": "C",
+    "explanation": "Метод append() добавляет новый элемент в самый конец списка."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(5 % 2)?",
+    "option_a": "2.5",
+    "option_b": "2",
+    "option_c": "1",
+    "option_d": "0",
+    "correct_option": "C",
+    "explanation": "Оператор % возвращает остаток от деления. 5 делится на 2 (получается 4), остаток равен 1."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных у значения 0?",
+    "option_a": "bool",
+    "option_b": "int",
+    "option_c": "float",
+    "option_d": "str",
+    "correct_option": "B",
+    "explanation": "Число 0 без точки является целым числом, то есть типом int."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает оператор !=?",
+    "option_a": "Проверяет равенство",
+    "option_b": "Проверяет неравенство",
+    "option_c": "Присваивает значение",
+    "option_d": "Сравнивает типы",
+    "correct_option": "B",
+    "explanation": "Оператор != возвращает True, если значения слева и справа не равны друг другу."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print('Apple'[0])?",
+    "option_a": "A",
+    "option_b": "p",
+    "option_c": "e",
+    "option_d": "Apple",
+    "correct_option": "A",
+    "explanation": "Индексация начинается с нуля, поэтому [0] возвращает первый символ строки, то есть 'A'."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какая функция преобразует строку в целое число?",
+    "option_a": "str()",
+    "option_b": "float()",
+    "option_c": "int()",
+    "option_d": "bool()",
+    "correct_option": "C",
+    "explanation": "Функция int() преобразует строку (например, '123') в целое число (123)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(3 * 'Hi')?",
+    "option_a": "HiHiHi",
+    "option_b": "Hi3",
+    "option_c": "3Hi",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Умножение строки на число дублирует её. 'Hi' повторится 3 раза."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает метод pop() у списка?",
+    "option_a": "Удаляет элемент по индексу и возвращает его",
+    "option_b": "Добавляет элемент в конец",
+    "option_c": "Сортирует список",
+    "option_d": "Очищает список",
+    "correct_option": "A",
+    "explanation": "Метод pop() без аргументов удаляет и возвращает последний элемент. С аргументом — элемент по указанному индексу."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как объединить две строки 'Hello' и 'World' с пробелом?",
+    "option_a": "'Hello' + ' ' + 'World'",
+    "option_b": "'Hello'.join('World')",
+    "option_c": "'Hello' & 'World'",
+    "option_d": "concat('Hello', 'World')",
+    "correct_option": "A",
+    "explanation": "Конкатенация строк происходит через оператор +. Нужно добавить строку с пробелом между ними."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(list(range(5, 0, -1)))?",
+    "option_a": "[5, 4, 3, 2, 1]",
+    "option_b": "[5, 4, 3, 2, 1, 0]",
+    "option_c": "[1, 2, 3, 4, 5]",
+    "option_d": "[0, 1, 2, 3, 4]",
+    "correct_option": "A",
+    "explanation": "range(start, stop, step) с шагом -1 идет от 5 до 0 (не включая 0): 5, 4, 3, 2, 1."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какое значение вернет выражение 'abc'.find('d')?",
+    "option_a": "0",
+    "option_b": "-1",
+    "option_c": "None",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Если подстрока не найдена, метод find() возвращает -1, а не вызывает ошибку."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что произойдет при выполнении: print([1, 2] * 2)?",
+    "option_a": "[2, 4]",
+    "option_b": "[1, 2, 1, 2]",
+    "option_c": "[[1, 2], [1, 2]]",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Умножение списка на число повторяет все его элементы указанное количество раз."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как удалить ключ 'name' из словаря d?",
+    "option_a": "d.remove('name')",
+    "option_b": "del d['name']",
+    "option_c": "d.delete('name')",
+    "option_d": "d.pop()",
+    "correct_option": "B",
+    "explanation": "Для удаления ключа используется инструкция del, либо метод d.pop('name')."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print('Python'.lower())?",
+    "option_a": "PYTHON",
+    "option_b": "python",
+    "option_c": "Python",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Метод lower() переводит все символы строки в нижний регистр."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой метод используется для сортировки списка на месте (без создания нового)?",
+    "option_a": "sorted()",
+    "option_b": "sort()",
+    "option_c": "order()",
+    "option_d": "arrange()",
+    "correct_option": "B",
+    "explanation": "Метод sort() сортирует список на месте и возвращает None. Функция sorted() создает новый отсортированный список."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(3 * [1])?",
+    "option_a": "[3]",
+    "option_b": "[1, 1, 1]",
+    "option_c": "[1, 3]",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Умножение списка повторяет его элементы. [1] повторится трижды."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой результат выполнения: print(not True)?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "None",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Оператор not инвертирует логическое значение. not True равно False."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает метод dict.get(key)?",
+    "option_a": "Вызывает ошибку, если ключа нет",
+    "option_b": "Возвращает None, если ключа нет",
+    "option_c": "Создает новый ключ",
+    "option_d": "Удаляет ключ",
+    "correct_option": "B",
+    "explanation": "В отличие от обращения по индексу d['key'], метод get() не вызывает ошибку, а возвращает None (или указанное значение по умолчанию)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как получить доступ к значению словаря по ключу 'age'?",
+    "option_a": "d.age",
+    "option_b": "d['age']",
+    "option_c": "d('age')",
+    "option_d": "d.get[age]",
+    "correct_option": "B",
+    "explanation": "Значения в словаре извлекаются по ключу с помощью квадратных скобок: d['age']."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(5 if False else 10)?",
+    "option_a": "5",
+    "option_b": "10",
+    "option_c": "True",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Тернарный оператор возвращает первое значение, если условие истинно, и второе, если ложно. False означает выбор 10."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какая функция возвращает количество элементов в списке?",
+    "option_a": "count()",
+    "option_b": "size()",
+    "option_c": "len()",
+    "option_d": "length()",
+    "correct_option": "C",
+    "explanation": "Встроенная функция len() возвращает длину любой последовательности, включая списки."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что произойдет при выполнении: 'hello'.capitalize()?",
+    "option_a": "Вернет 'HELLO'",
+    "option_b": "Вернет 'Hello'",
+    "option_c": "Вернет 'hello'",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Метод capitalize() делает первую букву строки заглавной, а остальные — строчными."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как создать копию списка lst?",
+    "option_a": "copy = lst",
+    "option_b": "copy = lst.copy()",
+    "option_c": "copy = lst[:]",
+    "option_d": "Оба варианта B и C верны",
+    "correct_option": "D",
+    "explanation": "Метод copy() или срез [:] создают поверхностную копию. Присваивание copy = lst создает лишь ссылку на тот же объект."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(bool([]) or bool('a'))?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "None",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "bool([]) — это False, bool('a') — это True. False or True возвращает True."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой оператор проверяет наличие подстроки в строке?",
+    "option_a": "in",
+    "option_b": "is",
+    "option_c": "==",
+    "option_d": "contains",
+    "correct_option": "A",
+    "explanation": "Оператор in используется для проверки наличия элемента или подстроки: 'ell' in 'hello' вернет True."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(10 // 3)?",
+    "option_a": "3.33",
+    "option_b": "3",
+    "option_c": "4",
+    "option_d": "1",
+    "correct_option": "B",
+    "explanation": "Оператор // выполняет целочисленное деление, отбрасывая дробную часть. 10 // 3 равно 3."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает метод insert(1, 'a') у списка?",
+    "option_a": "Добавляет 'a' в конец",
+    "option_b": "Вставляет 'a' на позицию с индексом 1",
+    "option_c": "Заменяет первый элемент на 'a'",
+    "option_d": "Удаляет элемент с индексом 1",
+    "correct_option": "B",
+    "explanation": "Метод insert(index, element) вставляет элемент в список по указанному индексу, сдвигая остальные элементы вправо."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой результат выполнения: print(type(1 == 1))?",
+    "option_a": "<class 'int'>",
+    "option_b": "<class 'str'>",
+    "option_c": "<class 'bool'>",
+    "option_d": "<class 'float'>",
+    "correct_option": "C",
+    "explanation": "Выражение сравнения (1 == 1) возвращает логическое значение True или False. Тип таких значений — bool."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает функция zip()?",
+    "option_a": "Создает архив",
+    "option_b": "Объединяет элементы нескольких последовательностей в кортежи",
+    "option_c": "Сортирует элементы",
+    "option_d": "Шифрует данные",
+    "correct_option": "B",
+    "explanation": "zip() берет элементы из нескольких итерируемых объектов и объединяет их в кортежи по индексам."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое рекурсия?",
+    "option_a": "Вызов функцией самой себя",
+    "option_b": "Бесконечный цикл",
+    "option_c": "Создание копии объекта",
+    "option_d": "Импорт модуля",
+    "correct_option": "A",
+    "explanation": "Рекурсия — это прием, когда функция вызывает саму себя для решения подзадач."
+  },
+  {
+    "level": "advanced",
+    "question_text": "В чем разница между методами remove() и del для списка?",
+    "option_a": "remove() удаляет по индексу, del — по значению",
+    "option_b": "remove() удаляет по значению, del — по индексу",
+    "option_c": "Они делают одно и то же",
+    "option_d": "del работает только со словарями",
+    "correct_option": "B",
+    "explanation": "remove(value) ищет и удаляет первое вхождение значения. del lst[index] удаляет элемент по индексу."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает метод __str__ в классе?",
+    "option_a": "Определяет строковое представление объекта для функции print()",
+    "option_b": "Создает объект",
+    "option_c": "Удаляет объект",
+    "option_d": "Сравнивает два объекта",
+    "correct_option": "A",
+    "explanation": "__str__ возвращает человекочитаемое строковое представление объекта, которое используется при выводе через print()."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что выведет код: print(all([True, True, False]))?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "None",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Функция all() возвращает True только если все элементы в последовательности истинны. Наличие False дает итоговый False."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое анонимная функция?",
+    "option_a": "Функция без имени, создаваемая через lambda",
+    "option_b": "Функция внутри класса",
+    "option_c": "Функция, которая ничего не возвращает",
+    "option_d": "Скрытая функция",
+    "correct_option": "A",
+    "explanation": "Lambda-функции — это анонимные функции, которые обычно используются для коротких операций прямо в коде."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какая функция возвращает список кортежей (индекс, значение)?",
+    "option_a": "zip()",
+    "option_b": "enumerate()",
+    "option_c": "map()",
+    "option_d": "filter()",
+    "correct_option": "B",
+    "explanation": "enumerate() принимает итерируемый объект и возвращает итератор пар (индекс, элемент), что удобно в циклах for."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает ключевое слово nonlocal в Python?",
+    "option_a": "Позволяет изменять переменную из внешней (но не глобальной) области видимости",
+    "option_b": "Делает переменную глобальной",
+    "option_c": "Создает константу",
+    "option_d": "Удаляет переменную",
+    "correct_option": "A",
+    "explanation": "nonlocal используется во вложенных функциях для работы с переменными из внешней функции (замыкания)."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что произойдет, если попытаться изменить строку: s = 'abc'; s[0] = 'A'?",
+    "option_a": "Строка станет 'Abc'",
+    "option_b": "Возникнет ошибка TypeError",
+    "option_c": "Будет создана новая строка",
+    "option_d": "Изменения проигнорируются",
+    "correct_option": "B",
+    "explanation": "Строки в Python неизменяемы (immutable). Вы не можете заменить символ по индексу."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает оператор yield в функции?",
+    "option_a": "Завершает функцию",
+    "option_b": "Возвращает значение и приостанавливает выполнение функции",
+    "option_c": "Создает цикл",
+    "option_d": "Возвращает None",
+    "correct_option": "B",
+    "explanation": "yield превращает функцию в генератор. При вызове функция возвращает значение и сохраняет состояние до следующего вызова."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое множественное наследование?",
+    "option_a": "Наследование от одного класса",
+    "option_b": "Наследование от нескольких классов одновременно",
+    "option_c": "Создание множества объектов",
+    "option_d": "Наследование только от встроенных классов",
+    "correct_option": "B",
+    "explanation": "Python поддерживает множественное наследование: class Child(Parent1, Parent2)."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое GIL (Global Interpreter Lock)?",
+    "option_a": "Механизм, позволяющий только одному потоку выполнять байт-код Python",
+    "option_b": "Глобальная блокировка памяти",
+    "option_c": "Инструмент для сборки мусора",
+    "option_d": "Модуль для работы с сетью",
+    "correct_option": "A",
+    "explanation": "GIL синхронизирует потоки, позволяя в один момент времени выполняться только одному потоку Python-кода."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какой результат выполнения: print(list(map(str, [1, 2, 3])))?",
+    "option_a": "[1, 2, 3]",
+    "option_b": "['1', '2', '3']",
+    "option_c": "Ошибка",
+    "option_d": "'123'",
+    "correct_option": "B",
+    "explanation": "map() применяет функцию str к каждому элементу списка, преобразуя числа в строки."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает метод super()?",
+    "option_a": "Вызывает методы родительского класса",
+    "option_b": "Создает экземпляр класса",
+    "option_c": "Удаляет атрибуты",
+    "option_d": "Возвращает тип объекта",
+    "correct_option": "A",
+    "explanation": "super() используется для вызова методов родительского класса, часто в конструкторе __init__."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое декоратор @staticmethod?",
+    "option_a": "Метод, не принимающий ни self, ни cls",
+    "option_b": "Метод, принимающий self",
+    "option_c": "Метод, принимающий cls",
+    "option_d": "Абстрактный метод",
+    "correct_option": "A",
+    "explanation": "@staticmethod делает метод статическим, он не зависит от экземпляра или класса."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что выведет код: print(isinstance(1, (str, int)))?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "Ошибка",
+    "option_d": "None",
+    "correct_option": "A",
+    "explanation": "isinstance может принимать кортеж типов. Если объект принадлежит хотя бы одному из них (int), возвращается True."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое генератор списков (list comprehension)?",
+    "option_a": "Способ создания списка в одну строку",
+    "option_b": "Функция для сортировки",
+    "option_c": "Модуль для работы с массивами",
+    "option_d": "Метод удаления элементов",
+    "correct_option": "A",
+    "explanation": "List comprehension позволяет компактно создавать списки: [x*2 for x in range(5)]."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что произойдет при открытии файла в режиме 'a'?",
+    "option_a": "Файл будет перезаписан",
+    "option_b": "Данные будут добавлены в конец файла",
+    "option_c": "Файл откроется только для чтения",
+    "option_d": "Возникнет ошибка",
+    "correct_option": "B",
+    "explanation": "Режим 'a' (append) открывает файл для добавления данных в конец, не стирая существующее содержимое."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(2 + 2 * 2)?",
+    "option_a": "8",
+    "option_b": "6",
+    "option_c": "4",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Умножение имеет более высокий приоритет, чем сложение. Сначала выполняется 2 * 2 = 4, затем 2 + 4 = 6."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой метод используется для удаления пробелов в начале и конце строки?",
+    "option_a": "strip()",
+    "option_b": "trim()",
+    "option_c": "remove()",
+    "option_d": "clean()",
+    "correct_option": "A",
+    "explanation": "Метод strip() удаляет пробельные символы (и переносы строк) с обоих концов строки."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Как в Python обозначается логическое ИЛИ?",
+    "option_a": "and",
+    "option_b": "||",
+    "option_c": "or",
+    "option_d": "|",
+    "correct_option": "C",
+    "explanation": "В Python логическое ИЛИ записывается словом or. Оно возвращает True, если хотя бы одно из условий истинно."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(len('12345'))?",
+    "option_a": "4",
+    "option_b": "5",
+    "option_c": "12345",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Функция len() считает количество символов в строке. В строке '12345' пять символов."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных вернет функция float('3.14')?",
+    "option_a": "str",
+    "option_b": "int",
+    "option_c": "float",
+    "option_d": "bool",
+    "correct_option": "C",
+    "explanation": "Функция float() преобразует строку с числом в число с плавающей точкой (float)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает оператор +=?",
+    "option_a": "Сравнивает значения",
+    "option_b": "Прибавляет значение к переменной",
+    "option_c": "Создает новую переменную",
+    "option_d": "Удаляет переменную",
+    "correct_option": "B",
+    "explanation": "Оператор += это сокращенная запись. x += 5 означает x = x + 5."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(bool(0.0))?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "0.0",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Число 0.0 (как и целое 0) считается ложным значением, поэтому bool(0.0) возвращает False."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Как получить последний символ строки s = 'python'?",
+    "option_a": "s[0]",
+    "option_b": "s[-1]",
+    "option_c": "s[last]",
+    "option_d": "s.end()",
+    "correct_option": "B",
+    "explanation": "Отрицательный индекс -1 указывает на последний элемент последовательности."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой оператор используется для проверки, что значение НЕ равно?",
+    "option_a": "==",
+    "option_b": "!=",
+    "option_c": "<>",
+    "option_d": "not=",
+    "correct_option": "B",
+    "explanation": "Оператор != возвращает True, если значения слева и справа не равны."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает функция print()?",
+    "option_a": "Считывает данные с клавиатуры",
+    "option_b": "Выводит данные на экран",
+    "option_c": "Очищает экран",
+    "option_d": "Создает файл",
+    "correct_option": "B",
+    "explanation": "print() выводит переданные ей значения в консоль или терминал."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(list('abc'))?",
+    "option_a": "['abc']",
+    "option_b": "['a', 'b', 'c']",
+    "option_c": "'abc'",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Функция list() разбивает строку на отдельные символы, так как строка является итерируемым объектом."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как добавить элемент 'new' в множество s?",
+    "option_a": "s.append('new')",
+    "option_b": "s.add('new')",
+    "option_c": "s.insert('new')",
+    "option_d": "s.update('new')",
+    "correct_option": "B",
+    "explanation": "Для добавления элемента в множество (set) используется метод add(). Метод append() есть только у списков."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(10 // 3, 10 % 3)?",
+    "option_a": "3 1",
+    "option_b": "3.3 1",
+    "option_c": "3 3",
+    "option_d": "1 3",
+    "correct_option": "A",
+    "explanation": "// возвращает целую часть от деления (3), а % — остаток (1)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как создать кортеж из одного элемента?",
+    "option_a": "t = (1)",
+    "option_b": "t = (1,)",
+    "option_c": "t = [1]",
+    "option_d": "t = tuple(1)",
+    "correct_option": "B",
+    "explanation": "Запятая после элемента обязательна для создания кортежа, иначе Python воспримет (1) как просто число в скобках."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает срез списка lst[::-1]?",
+    "option_a": "Удаляет первый элемент",
+    "option_b": "Возвращает копию списка в обратном порядке",
+    "option_c": "Сортирует список",
+    "option_d": "Вызывает ошибку",
+    "correct_option": "B",
+    "explanation": "Шаг -1 означает движение с конца в начало, поэтому срез [::-1] переворачивает список."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какое значение вернет метод pop() у словаря d = {'a': 1, 'b': 2} при вызове d.pop('a')?",
+    "option_a": "1",
+    "option_b": "2",
+    "option_c": "'a'",
+    "option_d": "None",
+    "correct_option": "A",
+    "explanation": "Метод pop(key) удаляет ключ и возвращает его значение. Значение ключа 'a' равно 1."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как перебрать ключи и значения словаря в цикле?",
+    "option_a": "for k, v in d:",
+    "option_b": "for k, v in d.items():",
+    "option_c": "for k, v in d.keys():",
+    "option_d": "for k, v in d.values():",
+    "correct_option": "B",
+    "explanation": "Метод items() возвращает пары (ключ, значение), которые удобно распаковывать в две переменные."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает функция range(1, 10, 2)?",
+    "option_a": "Создает список от 1 до 10",
+    "option_b": "Генерирует числа 1, 3, 5, 7, 9",
+    "option_c": "Генерирует числа 2, 4, 6, 8, 10",
+    "option_d": "Выдает ошибку",
+    "correct_option": "B",
+    "explanation": "range(start, stop, step) начинает с 1, идет до 10 (не включая) с шагом 2."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(True + True)?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "2",
+    "option_d": "Ошибка",
+    "correct_option": "C",
+    "explanation": "В Python True равно 1, поэтому True + True эквивалентно 1 + 1 = 2."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое лямбда-функция?",
+    "option_a": "Функция, которая не возвращает значение",
+    "option_b": "Анонимная функция, создаваемая на лету",
+    "option_c": "Функция внутри класса",
+    "option_d": "Ошибка в коде",
+    "correct_option": "B",
+    "explanation": "Лямбда-функции используются для создания коротких анонимных функций без использования ключевого слова def."
+  },
+  {
+    "level": "advanced",
+    "question_text": "В чем разница между списком (list) и кортежем (tuple)?",
+    "option_a": "Списки изменяемы, кортежи неизменяемы",
+    "option_b": "Кортежи изменяемы, списки неизменяемы",
+    "option_c": "Списки быстрее кортежей",
+    "option_d": "Разницы нет",
+    "correct_option": "A",
+    "explanation": "Списки (list) можно изменять после создания, а кортежи (tuple) являются неизменяемыми объектами."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает декоратор @property?",
+    "option_a": "Позволяет вызывать метод как атрибут (без скобок)",
+    "option_b": "Делает атрибут приватным",
+    "option_c": "Удаляет атрибут",
+    "option_d": "Создает статический метод",
+    "correct_option": "A",
+    "explanation": "@property используется для превращения метода в атрибут только для чтения, что позволяет обращаться к нему без вызова."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какой результат выполнения: print(0.1 + 0.2 == 0.3)?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "Ошибка",
+    "option_d": "None",
+    "correct_option": "B",
+    "explanation": "Из-за особенностей хранения чисел с плавающей точкой в памяти, 0.1 + 0.2 равно 0.30000000000000004, что не равно 0.3."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что произойдет при выполнении: a = (1, 2); a[0] = 3?",
+    "option_a": "Кортеж изменится",
+    "option_b": "Возникнет ошибка TypeError",
+    "option_c": "Создастся новый кортеж",
+    "option_d": "Ошибки не будет",
+    "correct_option": "B",
+    "explanation": "Кортежи (tuple) неизменяемы, попытка изменить их элемент вызовет ошибку TypeError."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое контекстный менеджер (используется с ключевым словом with)?",
+    "option_a": "Инструмент для управления памятью",
+    "option_b": "Конструкция, которая гарантирует выполнение кода закрытия (например, закрытие файла)",
+    "option_c": "Менеджер пакетов",
+    "option_d": "Менеджер потоков",
+    "correct_option": "B",
+    "explanation": "Контекстный менеджер (например, при работе с open()) гарантирует, что ресурсы будут корректно освобождены (файл закрыт) даже при ошибках."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какой оператор используется для распаковки списка в аргументы функции?",
+    "option_a": "*",
+    "option_b": "**",
+    "option_c": "&",
+    "option_d": "@",
+    "correct_option": "A",
+    "explanation": "Оператор * распаковывает итерируемый объект (например, список) в позиционные аргументы функции: func(*my_list)."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что выведет код: print([i for i in range(3)])?",
+    "option_a": "[1, 2, 3]",
+    "option_b": "[0, 1, 2]",
+    "option_c": "[0, 1, 2, 3]",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Генератор списка создает список из чисел, которые выдает range(3), то есть 0, 1 и 2."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какая функция используется для проверки, является ли объект экземпляром класса?",
+    "option_a": "type()",
+    "option_b": "isinstance()",
+    "option_c": "hasattr()",
+    "option_d": "issubclass()",
+    "correct_option": "B",
+    "explanation": "Функция isinstance(obj, Class) возвращает True, если obj является экземпляром указанного класса (или его наследником)."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает оператор yield?",
+    "option_a": "Возвращает значение и завершает функцию",
+    "option_b": "Создает генератор, возвращая значение и приостанавливая функцию",
+    "option_c": "Вызывает исключение",
+    "option_d": "Импортирует модуль",
+    "correct_option": "B",
+    "explanation": "yield используется в генераторах для возврата значений по одному, сохраняя состояние функции между вызовами."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(4 + 3 * 2)?",
+    "option_a": "14",
+    "option_b": "10",
+    "option_c": "7",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Сначала выполняется умножение (3 * 2 = 6), затем сложение (4 + 6 = 10)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какая функция переводит строку в число с плавающей точкой?",
+    "option_a": "int()",
+    "option_b": "str()",
+    "option_c": "float()",
+    "option_d": "bool()",
+    "correct_option": "C",
+    "explanation": "Функция float() преобразует строку (например, '3.14') или целое число в число с плавающей точкой."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print('Hello'.upper())?",
+    "option_a": "hello",
+    "option_b": "HELLO",
+    "option_c": "Hello",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Метод upper() переводит все символы строки в верхний регистр."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных имеет значение True?",
+    "option_a": "int",
+    "option_b": "str",
+    "option_c": "float",
+    "option_d": "bool",
+    "correct_option": "D",
+    "explanation": "True и False — это логические значения, тип данных называется bool."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает оператор * при работе со строками?",
+    "option_a": "Умножает строку на число",
+    "option_b": "Повторяет строку заданное количество раз",
+    "option_c": "Удаляет символы",
+    "option_d": "Вызывает ошибку",
+    "correct_option": "B",
+    "explanation": "Например, 'ab' * 3 вернет 'ababab'. Строка повторяется указанное число раз."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Как получить первый элемент списка lst = [10, 20, 30]?",
+    "option_a": "lst[1]",
+    "option_b": "lst[0]",
+    "option_c": "lst[-1]",
+    "option_d": "lst.first()",
+    "correct_option": "B",
+    "explanation": "Индексация начинается с нуля, поэтому первый элемент находится по индексу 0."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(bool(' '))?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "Ошибка",
+    "option_d": "None",
+    "correct_option": "A",
+    "explanation": "Строка, содержащая даже один пробел, не является пустой, поэтому она считается истинной (True)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой оператор используется для возведения в степень?",
+    "option_a": "^",
+    "option_b": "*",
+    "option_c": "**",
+    "option_d": "//",
+    "correct_option": "C",
+    "explanation": "В Python для возведения в степень используется двойная звездочка **."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(10 == '10')?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "Ошибка",
+    "option_d": "None",
+    "correct_option": "B",
+    "explanation": "Число 10 и строка '10' имеют разные типы, поэтому они не равны."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какая функция возвращает длину строки?",
+    "option_a": "size()",
+    "option_b": "length()",
+    "option_c": "len()",
+    "option_d": "count()",
+    "correct_option": "C",
+    "explanation": "Встроенная функция len() возвращает количество символов в строке."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой метод удаляет пробелы только в начале строки?",
+    "option_a": "strip()",
+    "option_b": "lstrip()",
+    "option_c": "rstrip()",
+    "option_d": "trim()",
+    "correct_option": "B",
+    "explanation": "lstrip() удаляет пробелы слева (в начале), rstrip() — справа, а strip() — с обеих сторон."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(3 < 2 or 5 > 4)?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "3",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "3 < 2 это False, но 5 > 4 это True. Оператор or возвращает True, если хотя бы одно условие истинно."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных создается с помощью фигурных скобок {}?",
+    "option_a": "list",
+    "option_b": "tuple",
+    "option_c": "set",
+    "option_d": "dict",
+    "correct_option": "D",
+    "explanation": "Пустые фигурные скобки {} создают словарь (dict). Для создания множества используется set()."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает функция input()?",
+    "option_a": "Выводит текст на экран",
+    "option_b": "Принимает ввод от пользователя",
+    "option_c": "Генерирует случайное число",
+    "option_d": "Открывает файл",
+    "correct_option": "B",
+    "explanation": "Функция input() ждет, пока пользователь введет текст, и возвращает его в виде строки."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(0 or 'Python')?",
+    "option_a": "0",
+    "option_b": "Python",
+    "option_c": "True",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Оператор or возвращает первое истинное значение. Так как 0 это False, он возвращает 'Python'."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой символ используется для продолжения строки кода на следующую строку?",
+    "option_a": "\\",
+    "option_b": "/",
+    "option_c": ";",
+    "option_d": "_",
+    "correct_option": "A",
+    "explanation": "Обратный слэш \\ в конце строки позволяет продолжить длинную инструкцию на следующей строке."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(15 // 4)?",
+    "option_a": "3.75",
+    "option_b": "3",
+    "option_c": "4",
+    "option_d": "3.0",
+    "correct_option": "B",
+    "explanation": "Оператор // выполняет целочисленное деление, отбрасывая дробную часть. 15 // 4 равно 3."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой результат выполнения: print([1, 2, 3][-1])?",
+    "option_a": "1",
+    "option_b": "2",
+    "option_c": "3",
+    "option_d": "Ошибка",
+    "correct_option": "C",
+    "explanation": "Отрицательный индекс -1 указывает на последний элемент списка."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает метод split() у строки?",
+    "option_a": "Разделяет строку на список подстрок по указанному разделителю",
+    "option_b": "Соединяет список в строку",
+    "option_c": "Удаляет пробелы",
+    "option_d": "Переводит в верхний регистр",
+    "correct_option": "A",
+    "explanation": "Например, 'a,b,c'.split(',') вернет ['a', 'b', 'c']."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(len({1, 2, 2, 3, 3, 3}))?",
+    "option_a": "6",
+    "option_b": "3",
+    "option_c": "2",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Множества (set) хранят только уникальные элементы. Дубликаты удаляются, остается 3 элемента."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как добавить пару ключ-значение в словарь d?",
+    "option_a": "d.append('key', 'value')",
+    "option_b": "d.add('key', 'value')",
+    "option_c": "d['key'] = 'value'",
+    "option_d": "d.insert('key', 'value')",
+    "correct_option": "C",
+    "explanation": "В словарь добавляют элементы через присваивание по ключу: d['key'] = 'value'."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает функция enumerate()?",
+    "option_a": "Возвращает пары (индекс, элемент) при переборе",
+    "option_b": "Сортирует список",
+    "option_c": "Считает количество элементов",
+    "option_d": "Объединяет списки",
+    "correct_option": "A",
+    "explanation": "enumerate() используется в циклах, когда нужен и индекс, и сам элемент: for i, val in enumerate(lst)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print('ab' * 3)?",
+    "option_a": "ababab",
+    "option_b": "ab3",
+    "option_c": "ab ab ab",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Строка повторяется 3 раза без добавления пробелов."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как получить срез списка lst с 3-го элемента до конца?",
+    "option_a": "lst[3:]",
+    "option_b": "lst[3]",
+    "option_c": "lst[:3]",
+    "option_d": "lst[3:-1]",
+    "correct_option": "A",
+    "explanation": "Срез [3:] берет элементы начиная с индекса 3 (четвертый элемент) и до конца списка."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что произойдет при выполнении: print(int('hello'))?",
+    "option_a": "Выведет 0",
+    "option_b": "Выведет 'hello'",
+    "option_c": "Возникнет ошибка ValueError",
+    "option_d": "Выведет None",
+    "correct_option": "C",
+    "explanation": "Функция int() может преобразовать только строки, содержащие числа. Слово 'hello' вызовет ошибку ValueError."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой метод используется для объединения элементов списка в строку?",
+    "option_a": "join()",
+    "option_b": "split()",
+    "option_c": "concat()",
+    "option_d": "merge()",
+    "correct_option": "A",
+    "explanation": "Метод join() вызывается у строки-разделителя: '-'.join(['a', 'b']) вернет 'a-b'."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(3 in [1, 2, 3, 4])?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "3",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Оператор in проверяет наличие элемента в списке. Число 3 есть в списке."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает метод sort(reverse=True) у списка?",
+    "option_a": "Сортирует по возрастанию",
+    "option_b": "Сортирует по убыванию",
+    "option_c": "Переворачивает список",
+    "option_d": "Удаляет дубликаты",
+    "correct_option": "B",
+    "explanation": "Параметр reverse=True указывает методу sort() сортировать элементы в обратном (убывающем) порядке."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(bool([]) and bool([1]))?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "[]",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "bool([]) это False. Оператор and возвращает False, если хотя бы один операнд ложен (False and True = False)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как проверить, есть ли ключ 'name' в словаре d?",
+    "option_a": "d.has_key('name')",
+    "option_b": "'name' in d",
+    "option_c": "d.contains('name')",
+    "option_d": "d.exists('name')",
+    "correct_option": "B",
+    "explanation": "Оператор in для словаря проверяет наличие ключа. Это самый правильный и питоничный способ."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(list(range(3, 10, 3)))?",
+    "option_a": "[3, 6, 9]",
+    "option_b": "[3, 4, 5, 6, 7, 8, 9]",
+    "option_c": "[3, 6, 9, 10]",
+    "option_d": "[0, 3, 6, 9]",
+    "correct_option": "A",
+    "explanation": "range(3, 10, 3) начинает с 3, идет до 10 (не включая) с шагом 3, выдавая 3, 6, 9."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print('Hello'[1:3])?",
+    "option_a": "He",
+    "option_b": "el",
+    "option_c": "ell",
+    "option_d": "lo",
+    "correct_option": "B",
+    "explanation": "Срез [1:3] берет символы с индексами 1 и 2 (верхняя граница не включается). В 'Hello' это 'e' и 'l'."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "В чем разница между методами append() и extend() у списка?",
+    "option_a": "append() добавляет один элемент, extend() добавляет все элементы из итерируемого объекта",
+    "option_b": "append() добавляет в начало, extend() в конец",
+    "option_c": "Разницы нет",
+    "option_d": "extend() работает только со строками",
+    "correct_option": "A",
+    "explanation": "append([1, 2]) добавит список как один элемент. extend([1, 2]) добавит числа 1 и 2 по отдельности."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(5 // 2.0)?",
+    "option_a": "2",
+    "option_b": "2.0",
+    "option_c": "2.5",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Оператор // выполняет целочисленное деление, но если хотя бы один операнд float, результат тоже будет float (2.0)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как удалить последний элемент из списка lst?",
+    "option_a": "lst.remove()",
+    "option_b": "del lst[-1]",
+    "option_c": "lst.pop(0)",
+    "option_d": "lst.delete()",
+    "correct_option": "B",
+    "explanation": "del lst[-1] удаляет последний элемент по индексу -1. Также можно использовать lst.pop() без аргументов."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает метод replace() у строки?",
+    "option_a": "Заменяет один символ или подстроку на другую",
+    "option_b": "Удаляет строку",
+    "option_c": "Меняет регистр",
+    "option_d": "Разделяет строку",
+    "correct_option": "A",
+    "explanation": "Метод replace(old, new) возвращает новую строку, где все вхождения old заменены на new."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(type(1.0 + 1))?",
+    "option_a": "<class 'int'>",
+    "option_b": "<class 'float'>",
+    "option_c": "<class 'str'>",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "При сложении целого числа и числа с плавающей точкой результат всегда приводится к float (2.0)."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое магические (dunder) методы в Python?",
+    "option_a": "Скрытые методы, недоступные программисту",
+    "option_b": "Методы с двумя подчеркиваниями с обеих сторон, изменяющие поведение объектов",
+    "option_c": "Методы для работы с сетью",
+    "option_d": "Встроенные математические функции",
+    "correct_option": "B",
+    "explanation": "Магические методы (например, __init__, __str__, __add__) позволяют переопределять встроенное поведение (сложение, вывод, создание)."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает функция filter(func, iterable)?",
+    "option_a": "Применяет функцию к каждому элементу",
+    "option_b": "Оставляет только те элементы, для которых func возвращает True",
+    "option_c": "Сортирует элементы",
+    "option_d": "Преобразует в список",
+    "correct_option": "B",
+    "explanation": "filter() фильтрует последовательность, оставляя только элементы, удовлетворяющие условию в функции."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что выведет код: print(not [])?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "[]",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Пустой список [] является ложным значением (False). Оператор not инвертирует его в True."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Как в Python создается собственное исключение (ошибка)?",
+    "option_a": "class MyError(Exception): pass",
+    "option_b": "new Exception(MyError)",
+    "option_c": "raise MyError",
+    "option_d": "def MyError(): pass",
+    "correct_option": "A",
+    "explanation": "Собственные исключения создаются путем наследования от базового класса Exception."
+  },
+  {
+    "level": "advanced",
+    "question_text": "В чем разница между методами remove() и discard() у множества (set)?",
+    "option_a": "Разницы нет",
+    "option_b": "remove() вызовет ошибку, если элемента нет, а discard() — нет",
+    "option_c": "discard() вызовет ошибку, а remove() — нет",
+    "option_d": "remove() удаляет все элементы",
+    "correct_option": "B",
+    "explanation": "remove(x) вызывает KeyError, если x нет в множестве. discard(x) просто ничего не делает в этом случае."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает ключевое слово global в функции?",
+    "option_a": "Позволяет изменять глобальную переменную внутри функции",
+    "option_b": "Делает все переменные глобальными",
+    "option_c": "Импортирует глобальные модули",
+    "option_d": "Удаляет переменную",
+    "correct_option": "A",
+    "explanation": "global указывает, что переменная внутри функции ссылается на глобальную область видимости, позволяя её изменять."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что выведет код: print(all([]))?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "[]",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Функция all() для пустой последовательности возвращает True (так как в ней нет ложных элементов)."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что произойдет при выполнении кода: def func(): return 1; print(func());?",
+    "option_a": "Ошибка",
+    "option_b": "Выведет 1",
+    "option_c": "Выведет None",
+    "option_d": "Ничего не выведет",
+    "correct_option": "B",
+    "explanation": "Функция возвращает 1, а print() выводит это значение на экран."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какой модуль используется для работы с регулярными выражениями?",
+    "option_a": "regex",
+    "option_b": "re",
+    "option_c": "regext",
+    "option_d": "expression",
+    "correct_option": "B",
+    "explanation": "Встроенный модуль re предоставляет функции для работы с регулярными выражениями."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какая функция позволяет получить список всех атрибутов и методов объекта?",
+    "option_a": "vars()",
+    "option_b": "dir()",
+    "option_c": "help()",
+    "option_d": "type()",
+    "correct_option": "B",
+    "explanation": "Функция dir() возвращает отсортированный список имен атрибутов и методов объекта."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что произойдет при выполнении: print(0.1 + 0.2 == 0.3)?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "Ошибка",
+    "option_d": "None",
+    "correct_option": "B",
+    "explanation": "Из-за особенностей двоичной арифметики с плавающей точкой 0.1 + 0.2 равно 0.30000000000000004."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какой метод используется для открытия файла?",
+    "option_a": "file()",
+    "option_b": "open()",
+    "option_c": "read()",
+    "option_d": "load()",
+    "correct_option": "B",
+    "explanation": "Встроенная функция open() используется для открытия файлов в различных режимах (чтение, запись и т.д.)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой оператор используется для сравнения на равенство?",
+    "option_a": "=",
+    "option_b": "==",
+    "option_c": "===",
+    "option_d": "!=",
+    "correct_option": "B",
+    "explanation": "Одиночный знак = используется для присваивания, а двойной == — для проверки равенства."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(type([]))?",
+    "option_a": "<class 'tuple'>",
+    "option_b": "<class 'list'>",
+    "option_c": "<class 'dict'>",
+    "option_d": "<class 'set'>",
+    "correct_option": "B",
+    "explanation": "Квадратные скобки [] создают список (list)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой метод переводит строку в нижний регистр?",
+    "option_a": "lower()",
+    "option_b": "upper()",
+    "option_c": "casefold()",
+    "option_d": "small()",
+    "correct_option": "A",
+    "explanation": "Метод lower() возвращает копию строки, где все буквы переведены в нижний регистр."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(10 > 5 and 5 > 10)?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "10",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Условие 5 > 10 ложно, а оператор and требует, чтобы оба условия были истинными. Поэтому результат False."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Как получить ввод от пользователя в виде строки?",
+    "option_a": "print()",
+    "option_b": "input()",
+    "option_c": "get()",
+    "option_d": "scan()",
+    "correct_option": "B",
+    "explanation": "Функция input() ожидает ввода от пользователя и возвращает его в виде строки."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает оператор %?",
+    "option_a": "Возвращает остаток от деления",
+    "option_b": "Выполняет обычное деление",
+    "option_c": "Возводит в степень",
+    "option_d": "Считает проценты",
+    "correct_option": "A",
+    "explanation": "Оператор % (модуль) возвращает остаток от деления левого операнда на правый."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных возвращает функция bool(1)?",
+    "option_a": "int",
+    "option_b": "str",
+    "option_c": "bool",
+    "option_d": "float",
+    "correct_option": "C",
+    "explanation": "Функция bool() преобразует значение в логический тип. bool(1) вернет True."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print('a' + 'b' + 'c')?",
+    "option_a": "abc",
+    "option_b": "a b c",
+    "option_c": "Ошибка",
+    "option_d": "a+b+c",
+    "correct_option": "A",
+    "explanation": "Оператор + склеивает строки (конкатенация). Результат будет 'abc'."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Как создать пустой кортеж?",
+    "option_a": "t = ()",
+    "option_b": "t = []",
+    "option_c": "t = {}",
+    "option_d": "t = tuple",
+    "correct_option": "A",
+    "explanation": "Пустые круглые скобки () создают пустой кортеж (tuple)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что делает функция len('Python')?",
+    "option_a": "Возвращает 5",
+    "option_b": "Возвращает 6",
+    "option_c": "Возвращает 7",
+    "option_d": "Вызывает ошибку",
+    "correct_option": "B",
+    "explanation": "Слово 'Python' состоит из 6 символов, поэтому len() вернет 6."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой отступ (indentation) обычно используется в Python?",
+    "option_a": "1 пробел",
+    "option_b": "2 пробела",
+    "option_c": "4 пробела",
+    "option_d": "Табуляция запрещена",
+    "correct_option": "C",
+    "explanation": "По стандарту PEP 8 рекомендуется использовать 4 пробела для одного уровня отступа."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print(2 ** 2)?",
+    "option_a": "2",
+    "option_b": "4",
+    "option_c": "8",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Оператор ** возводит число в степень. 2 во 2-й степени равно 4."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой тип данных у значения 10.5?",
+    "option_a": "int",
+    "option_b": "float",
+    "option_c": "str",
+    "option_d": "bool",
+    "correct_option": "B",
+    "explanation": "Числа с десятичной точкой относятся к типу float (число с плавающей точкой)."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какая функция преобразует число в строку?",
+    "option_a": "int()",
+    "option_b": "float()",
+    "option_c": "str()",
+    "option_d": "text()",
+    "correct_option": "C",
+    "explanation": "Функция str() преобразует переданный объект (например, число 123) в строку '123'."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Что выведет код: print('Hello'[0])?",
+    "option_a": "H",
+    "option_b": "e",
+    "option_c": "o",
+    "option_d": "Hello",
+    "correct_option": "A",
+    "explanation": "Индексация начинается с нуля, поэтому [0] возвращает первый символ — 'H'."
+  },
+  {
+    "level": "beginner",
+    "question_text": "Какой оператор используется для логического И?",
+    "option_a": "&&",
+    "option_b": "and",
+    "option_c": "&",
+    "option_d": "or",
+    "correct_option": "B",
+    "explanation": "В Python логическое И записывается словом and."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает метод pop(0) у списка?",
+    "option_a": "Удаляет первый элемент и возвращает его",
+    "option_b": "Удаляет последний элемент",
+    "option_c": "Добавляет элемент в начало",
+    "option_d": "Очищает список",
+    "correct_option": "A",
+    "explanation": "Метод pop(0) удаляет элемент с индексом 0 (первый) и возвращает его значение."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как объединить список строк в одну строку?",
+    "option_a": "''.join(lst)",
+    "option_b": "lst.join('')",
+    "option_c": "str(lst)",
+    "option_d": "concat(lst)",
+    "correct_option": "A",
+    "explanation": "Метод join() вызывается у строки-разделителя и принимает список строк."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(list({1: 'a', 2: 'b'}.keys()))?",
+    "option_a": "['a', 'b']",
+    "option_b": "[1, 2]",
+    "option_c": "[1, 2, 'a', 'b']",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Метод keys() возвращает ключи словаря. В данном случае это 1 и 2."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает функция range(5)?",
+    "option_a": "Создает список [1, 2, 3, 4, 5]",
+    "option_b": "Генерирует числа от 0 до 4",
+    "option_c": "Генерирует числа от 0 до 5",
+    "option_d": "Создает бесконечный цикл",
+    "correct_option": "B",
+    "explanation": "range(5) генерирует последовательность от 0 до 4 (верхняя граница не включается)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что произойдет при выполнении: a = [1, 2]; b = a; b.append(3)?",
+    "option_a": "a = [1, 2], b = [1, 2, 3]",
+    "option_b": "a = [1, 2, 3], b = [1, 2, 3]",
+    "option_c": "a = [1, 2], b = [1, 2]",
+    "option_d": "Ошибка",
+    "correct_option": "B",
+    "explanation": "Переменные a и b ссылаются на один и тот же список в памяти. Изменение через b меняет и a."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как срезать последние 3 элемента списка lst?",
+    "option_a": "lst[-3:]",
+    "option_b": "lst[:-3]",
+    "option_c": "lst[3:]",
+    "option_d": "lst[:3]",
+    "correct_option": "A",
+    "explanation": "Срез [-3:] берет элементы с третьего с конца и до конца списка."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает оператор in при проверке словаря?",
+    "option_a": "Проверяет наличие значения",
+    "option_b": "Проверяет наличие ключа",
+    "option_c": "Проверяет тип данных",
+    "option_d": "Вызывает ошибку",
+    "correct_option": "B",
+    "explanation": "При использовании со словарем оператор in проверяет наличие ключа, а не значения."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой результат выполнения: print(2 * 'abc')?",
+    "option_a": "abcabc",
+    "option_b": "abc2",
+    "option_c": "Ошибка",
+    "option_d": "['abc', 'abc']",
+    "correct_option": "A",
+    "explanation": "Умножение строки на число повторяет строку указанное количество раз."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как проверить, что список lst пуст?",
+    "option_a": "if lst == None:",
+    "option_b": "if len(lst) == 0:",
+    "option_c": "if not lst:",
+    "option_d": "Оба варианта B и C верны",
+    "correct_option": "D",
+    "explanation": "Пустой список имеет длину 0, а также является ложным значением (not lst вернет True)."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает функция enumerate(['a', 'b'])?",
+    "option_a": "Возвращает [('a', 0), ('b', 1)]",
+    "option_b": "Возвращает [(0, 'a'), (1, 'b')]",
+    "option_c": "Сортирует список",
+    "option_d": "Считает количество элементов",
+    "correct_option": "B",
+    "explanation": "enumerate() возвращает пары (индекс, элемент), начиная с индекса 0."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как удалить ключ 'age' из словаря d?",
+    "option_a": "d.remove('age')",
+    "option_b": "del d['age']",
+    "option_c": "d.delete('age')",
+    "option_d": "d.pop('age') и del d['age'] работают",
+    "correct_option": "D",
+    "explanation": "Оба способа (del d['age'] и d.pop('age')) удаляют ключ из словаря."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print(True + 1)?",
+    "option_a": "True",
+    "option_b": "2",
+    "option_c": "Ошибка",
+    "option_d": "1",
+    "correct_option": "B",
+    "explanation": "True в Python равно 1, поэтому True + 1 эквивалентно 1 + 1 = 2."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Какой метод добавляет элемент в множество (set)?",
+    "option_a": "append()",
+    "option_b": "insert()",
+    "option_c": "add()",
+    "option_d": "push()",
+    "correct_option": "C",
+    "explanation": "Для добавления элемента в множество используется метод add()."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что делает срез [::-1]?",
+    "option_a": "Удаляет первый элемент",
+    "option_b": "Возвращает копию в обратном порядке",
+    "option_c": "Сортирует список",
+    "option_d": "Возвращает пустой список",
+    "correct_option": "B",
+    "explanation": "Шаг -1 означает движение от конца к началу, поэтому срез [::-1] переворачивает последовательность."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Что выведет код: print('123'.isdigit())?",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "123",
+    "option_d": "Ошибка",
+    "correct_option": "A",
+    "explanation": "Метод isdigit() возвращает True, если строка состоит только из цифр."
+  },
+  {
+    "level": "intermediate",
+    "question_text": "Как преобразовать строку '1,2,3' в список чисел [1, 2, 3]?",
+    "option_a": "[int(x) for x in '1,2,3'.split(',')]",
+    "option_b": "list('1,2,3')",
+    "option_c": "int('1,2,3')",
+    "option_d": "map('1,2,3')",
+    "correct_option": "A",
+    "explanation": "Сначала строка разбивается по запятой методом split(','), а затем каждый элемент преобразуется в число через int()."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает ключевое слово with при работе с файлами?",
+    "option_a": "Автоматически закрывает файл после выхода из блока",
+    "option_b": "Открывает файл только для чтения",
+    "option_c": "Шифрует файл",
+    "option_d": "Создает копию файла",
+    "correct_option": "A",
+    "explanation": "Контекстный менеджер (with) гарантирует, что файл будет корректно закрыт, даже если внутри блока произойдет ошибка."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Какой оператор используется для распаковки словаря в аргументы функции?",
+    "option_a": "*",
+    "option_b": "**",
+    "option_c": "&",
+    "option_d": "@",
+    "correct_option": "B",
+    "explanation": "Оператор ** используется для передачи словаря в качестве именованных аргументов: func(**my_dict)."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает декоратор @staticmethod?",
+    "option_a": "Метод, который не принимает ни self, ни cls",
+    "option_b": "Метод, принимающий self",
+    "option_c": "Абстрактный метод",
+    "option_d": "Приватный метод",
+    "correct_option": "A",
+    "explanation": "@staticmethod делает метод статическим, он не зависит от экземпляра или класса."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что такое асинхронность (async/await) в Python?",
+    "option_a": "Способ создания потоков",
+    "option_b": "Механизм для выполнения неблокирующих операций ввода-вывода",
+    "option_c": "Метод сортировки",
+    "option_d": "Тип данных",
+    "correct_option": "B",
+    "explanation": "async/await используются для написания асинхронного кода, который позволяет эффективно обрабатывать операции ввода-вывода без блокировки основного потока."
+  },
+  {
+    "level": "advanced",
+    "question_text": "Что делает функция dir()?",
+    "option_a": "Возвращает список атрибутов и методов объекта",
+    "option_b": "Удаляет объект",
+    "option_c": "Создает директорию",
+    "option_d": "Возвращает тип объекта",
+    "correct_option": "A",
+    "explanation": "Встроенная функция dir() возвращает отсортированный список строк — имен атрибутов и методов переданного объекта."
+  }
+]
