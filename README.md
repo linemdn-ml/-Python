@@ -1,5 +1,14 @@
 🐍 Интерактивное приложение-викторина по Python для Android. Три уровня сложности, случайные вопросы без повторов и подробные пояснения. Написано на Python (BeeWare/Toga).
 
+📱 Как собрать APK для Android
+Убедитесь, что у вас установлены Java 17 JDK и Android SDK (Briefcase скачает их автоматически при первом запуске).
+
+bash
+briefcase create android
+briefcase build android
+briefcase package android -p debug-apk
+Готовый APK-файл появится в папке dist/.
+
 # 🐍 Python Quiz App
 
 Интерактивное кроссплатформенное приложение-викторина для проверки и изучения знаний языка Python. Написано на Python с использованием фреймворка **BeeWare (Toga)**.
@@ -42,15 +51,6 @@ pip install briefcase
 
 bash
 briefcase dev
-
-📱 Как собрать APK для Android
-Убедитесь, что у вас установлены Java 17 JDK и Android SDK (Briefcase скачает их автоматически при первом запуске).
-
-bash
-briefcase create android
-briefcase build android
-briefcase package android -p debug-apk
-Готовый APK-файл появится в папке dist/.
 
 📂 Структура проекта
 src/pythonquizapp/app.py — основной код интерфейса и логики приложения.
