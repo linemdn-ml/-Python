@@ -42,6 +42,7 @@ pip install briefcase
 
 bash
 briefcase dev
+
 📱 Как собрать APK для Android
 Убедитесь, что у вас установлены Java 17 JDK и Android SDK (Briefcase скачает их автоматически при первом запуске).
 
